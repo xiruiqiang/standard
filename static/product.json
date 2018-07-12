@@ -1,0 +1,99 @@
+{
+  "carouse": [
+    {
+      "picture": "/static/home/1.png"
+    }
+  ],
+  "products": [
+    {
+      "name": "product.product-1",
+      "products": [
+        {
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        }
+      ]
+    },
+    {
+      "name": "product.product-2",
+      "products": [
+        {
+          "name": "balabala",
+          "picture": "/static/product/1.jpg"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        },{
+          "name": "balabala",
+          "picture": "/static/home/1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+.el-header {
+  padding: 0 0 0 0;
+}
+
+/**-----------------------------logo---------------------start---------------**/
+.logo {
+  height: 84px;
+  display: flex;
+}
+
+.logo-background {
+  background: -webkit-linear-gradient(#FFFFFF, #E3E3E5); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #E3E3E5); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #E3E3E5); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#FFFFFF, #E3E3E5); /* 标准的语法 */
+}
+
+.logo-logo {
+  height: 100%;
+}
+
+.logo-text {
+  text-shadow: 2px 8px 5px #a9aaa9;
+  font-size: 26px;
+  height: 100%;
+}
+
+.logo-text-ch {
+  letter-spacing: 8px; /*字体间距*/
+}
+
+.logo-text-en {
+  letter-spacing: 6px; /*字体间距*/
+}
+
+.logo-tool {
+  height: 100%;
+  background-image: url(../assets/img/top.jpg);
+  background-size: 110% 100%;
+  font-size: 10px;
+  align-content: center;
+  color: #FFFFFF;
+}
+
+.logo-tool-text {
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.logo-tool-text:hover {
+  color: #1c8de0;
+}
+
+/**---------------------------logo--------------end------------------------------------**/
+/**---------------------------menu--------------start----------------------------------**/
+.menu-background {
+  background-image: url(../assets/img/i_r3_c1.png);
+  background-size: 100% 100%;
+}
+
+.menu {
+  height: 44px;
+  display: flex;
+  line-height: 44px;
+  text-align: center;
+  margin: 0 auto;
+  color: #F0F902;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #1c8de0;
+}
+
+.menu-home {
+  color: #FFFFFF;
+}
+
+.menu-date {
+  height: 100%;
+  line-height: 44px;
+  text-align: center;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(#D70131, #AD011C, #D70131); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#D70131, #AD011C, #D70131); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#D70131, #AD011C, #D70131); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#D70131, #AD011C, #D70131); /* 标准的语法 */
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.left-product-row{
+  cursor: pointer;
+}
+/**---------------------------menu--------------end----------------------------------**/
+
+/**--------------------------header-body-split-----------------start----------------**/
+.header-body-split {
+  height: 24px;
+}
+
+.header-body-split-left {
+  background-image: url(../assets/img/main_01.jpg);
+  background-size: 100% 100%;
+}
+
+.header-body-split-right {
+  background-image: url(../assets/img/main_02.jpg);
+  background-size: 100% 100%;
+}
+
+.header-body-split-center {
+  background: -webkit-linear-gradient(#E2E2E4, #FFFFFF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#E2E2E4, #FFFFFF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#E2E2E4, #FFFFFF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#E2E2E4, #FFFFFF); /* 标准的语法 */
+}
+
+/**--------------------------header-body-split-----------------end----------------**/
+/**--------------------------product-header--------------------start--------------**/
+.product {
+  display: flex;
+}
+
+.product-header {
+  background: -webkit-linear-gradient(#FFFFFF, #EFEFEF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#FFFFFF, #EFEFEF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#FFFFFF, #EFEFEF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#FFFFFF, #EFEFEF); /* 标准的语法 */
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 44px;
+  height: 44px;
+}
+
+.product-header-text {
+  color: #C40100;
+  text-shadow: 2px 8px 5px #a9aaa9;
+  font-size: 26px;
+  height: 100%;
+}
+
+.product-body {
+  padding: 0;
+}
+
+/**--------------------------product-header--------------------end--------------**/
+
+/**-----------------------公司简介 start-----------------------**/
+.company {
+  height: 300px;
+}
+
+.company-introduction {
+
+}
+
+.company-introduction-body > p {
+  width: 100%;
+  overflow: hidden; /*超出隐藏*/
+  text-overflow: ellipsis; /*文本溢出时显示省略标记*/
+  display: -webkit-box; /*设置弹性盒模型*/
+  -webkit-line-clamp: 7; /*文本占的行数,如果要设置2行加...则设置为2*/
+  -webkit-box-orient: vertical; /*子代元素垂直显示*/
+}
+
+.company-introduction-body > .show-detail {
+  cursor: pointer;
+}
+
+.company-introduction-body > .show-detail:hover {
+  color: #1c8de0;
+}
+
+.company-scroll {
+  height: 200px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.company-scroll > ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.company-scroll > ul > li {
+  padding-bottom: 20px;
+}
+
+/**------------------------------------end----------------------------**/
+
+/**---------------------------publicity start---------------------**/
+.publicity {
+  padding-top: 25px;
+  text-align: center;
+}
+ .diaoc-background{
+   background-image: url(../assets/img/left_02.jpg);
+   background-size: 100% 100%;
+   width: 100%;
+ }
+ .diaoc-bottom-background{
+   background: url(../assets/img/order-01.jpg);
+   width: 100%;
+   height: 252px;
+ }
+/**-----------------------------publicity end--------------------**/
+.bg-purple {
+  background: #d3dce6;
+}
+
+.bg-purple-light {
+  background: #e5e9f2;
+}
+
+.grid-content {
+  min-height: 36px;
+}
+
+.row-bg {
+  background-color: #f9fafc;
+}
